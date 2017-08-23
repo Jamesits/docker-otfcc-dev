@@ -1,4 +1,5 @@
 FROM node:8
+MAINTAINER James Swineson <docker@public.swineson.me>
 
 RUN apt-get update \
     && apt-get upgrade -y \
@@ -27,3 +28,4 @@ RUN git clone https://github.com/caryll/otfcc.git \
     && ln -s "$(pwd)/bin/release-x64/otfccbuild" /usr/local/bin \
     && otfccdump --version
 
+WORKDIR /root
