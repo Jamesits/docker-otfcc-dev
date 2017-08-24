@@ -20,6 +20,6 @@ Preinstalled programs:
 System requirements:
 
  * The programs use only one core, so go for some less-core higher-frequency CPUs
- * >12GB free RAM needed to convert SourceSanHans series (16GB is recommended)
+ * \>12GB free RAM needed to convert SourceSanHans series (16GB is recommended)
  * 3GB free disk space to store temporary files
  * and a lot cups of tea to fill yourself while waiting (no, don't drink Java)
