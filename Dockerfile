@@ -40,6 +40,6 @@ RUN git clone https://github.com/caryll/otfcc.git \
 RUN git clone https://github.com/m13253/kaigen-fonts \
     && cd kaigen-fonts \
     && chmod +x build.sh \
-    && ln -s "$(pwd)\build.sh" /usr/local/bin/kaigen-otf2ttf
+    && ln -s "$(pwd)/build.sh" /usr/local/bin/kaigen-otf2ttf
 
 WORKDIR /root
