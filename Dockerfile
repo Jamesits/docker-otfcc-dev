@@ -12,7 +12,7 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y yarn \
     && yarn global add otfcc-c2q \
-    && yarn cache clean \
+    && yarn cache clean
 
 RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen \
     && locale-gen en_US.UTF-8 \
@@ -40,6 +40,6 @@ RUN git clone https://github.com/caryll/otfcc.git \
 RUN git clone https://github.com/m13253/kaigen-fonts \
     && cd kaigen-fonts \
     && chmod +x build.sh \
-    && ln -s "$(pwd)\build.sh" /usr/local/bin/otf2ttf
+    && ln -s "$(pwd)\build.sh" /usr/local/bin/kaigen-otf2ttf
 
 WORKDIR /root

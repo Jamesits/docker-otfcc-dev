@@ -9,3 +9,10 @@ Written for [m13253/kaigen-fonts](https://github.com/m13253/kaigen-fonts).
 ```shell
 docker run --rm -v "$(pwd):/root" -it jamesits/otfcc-dev:latest bash
 ```
+
+Preinstalled programs:
+
+ * `otfccdump`
+ * `otfccbuild`
+ * `otfcc-c2q`
+ * `kaigen-otf2ttf`
